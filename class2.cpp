@@ -7,7 +7,6 @@ int readScore(char* _class_name, STclass *_class, int* _score, int _count)
 	{
 		return -1;
 	}
-
 	memset(_class, 0, sizeof(STclass));
 	strncpy(_class->name, _class_name, LEN_CLASS_NAME);
 
